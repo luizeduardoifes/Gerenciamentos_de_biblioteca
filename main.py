@@ -35,7 +35,7 @@ def main():
         try:
             inteiro = int(opcao)
         
-            if opcao == 1:
+            if inteiro == 1:
                 os.system("cls")
                 palavra_chave = input("Digite uma palavra-chave para buscar livros: ")
                 print("Buscando livros...")
@@ -53,7 +53,7 @@ def main():
                     continue
                     
             
-            elif opcao == 2:
+            elif inteiro == 2:
                 os.system("cls")
                 print("Cadastro de livro")
                 titulo = input("Digite o título do livro: ")
@@ -72,7 +72,7 @@ def main():
                     time.sleep(4)
                     continue
             
-            elif opcao == 3:
+            elif inteiro == 3:
                 os.system("cls")
                 salvar_livro.ler_livros_salvos()
                 print("Pressione Enter para continuar...", end="")
@@ -82,7 +82,7 @@ def main():
                 time.sleep(4)
                 continue
             
-            elif opcao == 4: 
+            elif inteiro == 4: 
                 os.system("cls")
                 print("Inserindo dados no banco de dados...") 
                 titulo = input("Digite o título do livro: ")
@@ -98,7 +98,7 @@ def main():
                 time.sleep(4)
                 continue
             
-            elif opcao == 5:
+            elif inteiro == 5:
                 os.system("cls")
                 print("Gerenciando banco de dados...")
                 print("1. Listar livros")
@@ -168,7 +168,7 @@ def main():
                 else:
                     print("Opção inválida. Tente novamente.")
             
-            elif opcao == 0:
+            elif inteiro == 0:
                 print("Saindo do programa...")
                 time.sleep(2)
                 break
