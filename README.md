@@ -14,7 +14,7 @@ Este projeto é uma aplicação para **gestão de livros**, permitindo o cadastr
 - Linguagem de programação: (especifique aqui)
 - Banco de dados: (especifique aqui)
 - Exemplo de requisição de busca de livros: [Google Books API](https://www.googleapis.com/books/v1/volumes?q=python)
-- Frameworks/libraries: Biblioteca Rrquests
+- Frameworks/libraries: Biblioteca Requests
 
 ## Como executar
 
